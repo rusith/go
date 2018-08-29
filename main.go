@@ -6,5 +6,7 @@ func main() {
 	// learning.FindDuplicates()
 	// learning.FindDuplicatesFromFile()
 	// learning.FindDuplicatesFromFileVersionTwo()
-	learning.CreateLissajous()
+	// learning.CreateLissajous()
+	// learning.FetchUrl()
+	learning.FetchUrlConcurrent()
 }
