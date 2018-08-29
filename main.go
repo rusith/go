@@ -1,6 +1,6 @@
 package main
 
-import "learning/surface-plot"
+import "learning/mandelbrot"
 
 func main() {
 	// learning.FindDuplicates()
@@ -13,5 +13,6 @@ func main() {
 	// learning.StartCounterServer()
 	// someOtherName.ThisDoesNothing()
 	// scope.IntegerTests()
-	surfacePlot.CreateSurfacePlot()
+	// surfacePlot.CreateSurfacePlot()
+	mandelbrot.CreateImage()
 }
