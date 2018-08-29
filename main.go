@@ -1,9 +1,6 @@
 package main
 
-import (
-	"learning/scope"
-	"learning/tests"
-)
+import "learning/surface-plot"
 
 func main() {
 	// learning.FindDuplicates()
@@ -14,6 +11,7 @@ func main() {
 	// learning.FetchUrlConcurrent()
 	// learning.RunSimpleServer()
 	// learning.StartCounterServer()
-	someOtherName.ThisDoesNothing()
-	scope.IntegerTests()
+	// someOtherName.ThisDoesNothing()
+	// scope.IntegerTests()
+	surfacePlot.CreateSurfacePlot()
 }
