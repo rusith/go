@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751dd1b8-e048-4486-85c8-53dfce0dd61c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learning/fetch-url.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,33 +20,57 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="4" />
+          <entry key="go" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="4" />
+          <entry key="Go" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="908" />
+          <entry key="go" value="1438" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="908" />
+          <entry key="Go" value="1438" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learning/server-counter-mutex.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="e#18#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning/simple-server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#18#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning/fetch-url-concurrent.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="231">
               <caret line="11" column="23" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#18#42#0" expanded="true" />
@@ -103,7 +126,9 @@
       <list>
         <option value="$PROJECT_DIR$/learning/fetch-url.go" />
         <option value="$PROJECT_DIR$/learning/fetch-url-concurrent.go" />
+        <option value="$PROJECT_DIR$/learning/simple-server.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/learning/server-counter-mutex.go" />
       </list>
     </option>
   </component>
@@ -216,7 +241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/fetch-url-concurrent.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="231">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#18#42#0" expanded="true" />
@@ -224,10 +249,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learning/simple-server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="396">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/server-counter-mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

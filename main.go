@@ -8,5 +8,7 @@ func main() {
 	// learning.FindDuplicatesFromFileVersionTwo()
 	// learning.CreateLissajous()
 	// learning.FetchUrl()
-	learning.FetchUrlConcurrent()
+	// learning.FetchUrlConcurrent()
+	// learning.RunSimpleServer()
+	learning.StartCounterServer()
 }
