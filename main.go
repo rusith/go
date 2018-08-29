@@ -1,6 +1,9 @@
 package main
 
-import "learning/tests"
+import (
+	"learning/scope"
+	"learning/tests"
+)
 
 func main() {
 	// learning.FindDuplicates()
@@ -12,4 +15,5 @@ func main() {
 	// learning.RunSimpleServer()
 	// learning.StartCounterServer()
 	someOtherName.ThisDoesNothing()
+	scope.IntegerTests()
 }
