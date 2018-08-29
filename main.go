@@ -1,6 +1,6 @@
 package main
 
-import "learning/learning"
+import "learning/tests"
 
 func main() {
 	// learning.FindDuplicates()
@@ -10,5 +10,6 @@ func main() {
 	// learning.FetchUrl()
 	// learning.FetchUrlConcurrent()
 	// learning.RunSimpleServer()
-	learning.StartCounterServer()
+	// learning.StartCounterServer()
+	someOtherName.ThisDoesNothing()
 }
