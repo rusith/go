@@ -7,7 +7,7 @@ import (
 )
 
 type TestType struct {
-	Name string `json:"name"`
+	Name string `json:"name"` // Case insensitive, so theses tags are redundant
 	Id int `json:"id"`
 }
 
