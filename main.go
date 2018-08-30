@@ -1,6 +1,6 @@
 package main
 
-import "learning/mandelbrot"
+import "learning/structs"
 
 func main() {
 	// learning.FindDuplicates()
@@ -14,5 +14,8 @@ func main() {
 	// someOtherName.ThisDoesNothing()
 	// scope.IntegerTests()
 	// surfacePlot.CreateSurfacePlot()
-	mandelbrot.CreateImage()
+	// mandelbrot.CreateImage()
+	// composite.AppendInt()
+	// structs.ConvertToJson()
+	structs.ConvertFromJson()
 }
