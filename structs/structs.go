@@ -11,6 +11,32 @@ type TestType struct {
 	Id int `json:"id"`
 }
 
+
+type  TestEmbed struct {
+	TestType
+}
+
+func (t TestEmbed) GetName() string {
+	fmt.Println("Calling non pointer")
+	return t.Name
+}
+
+func (t *TestEmbed) GetNameOne() string {
+	fmt.Println("Calling pointer")
+	return t.Name;
+}
+
+
+func TestRun() {
+	obj := TestEmbed{ TestType{ Name: "Rusith", Id: 300}}
+	fu := obj.GetName
+
+	p := &obj;
+	p.GetName()
+	p.GetNameOne()
+	fmt.Println(fu())
+}
+
 func ConvertToJson() {
 	testObj := &TestType{ Name: "Rusith" , Id: 15245 }
 	j, err := json.MarshalIndent(*testObj, "", " ")
@@ -31,3 +57,9 @@ func ConvertFromJson() {
 	json.Unmarshal([]byte(j), t)
 	fmt.Println(*t)
 }
+
+
+type Point struct { X, Y float64 }
+
+func (p *Point) Add(q Point) *Point { return &Point{ p.X + q.X , p.Y + q.Y } }
+func (p *Point) Subs(q Point) *Point { return &Point{  p.X - q.X , p.Y - q.Y }}

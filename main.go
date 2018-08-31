@@ -1,6 +1,7 @@
 package main
 
-import "learning/structs"
+import "learning/bitvector"
+
 
 func main() {
 	// learning.FindDuplicates()
@@ -17,5 +18,5 @@ func main() {
 	// mandelbrot.CreateImage()
 	// composite.AppendInt()
 	// structs.ConvertToJson()
-	structs.ConvertFromJson()
+	bitvector.IntSetTest()
 }
