@@ -1,7 +1,6 @@
 package main
 
-import "learning/bitvector"
-
+import "learning/grf"
 
 func main() {
 	// learning.FindDuplicates()
@@ -18,5 +17,6 @@ func main() {
 	// mandelbrot.CreateImage()
 	// composite.AppendInt()
 	// structs.ConvertToJson()
-	bitvector.IntSetTest()
+	// bitvector.IntSetTest()
+	grf.Start()
 }
