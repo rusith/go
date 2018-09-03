@@ -1,6 +1,6 @@
 package main
 
-import "learning/grf"
+import "learning/clockserver"
 
 func main() {
 	// learning.FindDuplicates()
@@ -18,5 +18,6 @@ func main() {
 	// composite.AppendInt()
 	// structs.ConvertToJson()
 	// bitvector.IntSetTest()
-	grf.Start()
+	// grf.Start()
+	clockserver.Start()
 }
