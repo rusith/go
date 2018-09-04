@@ -1,6 +1,6 @@
 package main
 
-import "learning/clockserver"
+import "learning/udc"
 
 func main() {
 	// learning.FindDuplicates()
@@ -19,5 +19,6 @@ func main() {
 	// structs.ConvertToJson()
 	// bitvector.IntSetTest()
 	// grf.Start()
-	clockserver.Start()
+	// clockserver.Start()
+	udc.Start()
 }
